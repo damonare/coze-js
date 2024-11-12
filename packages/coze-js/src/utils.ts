@@ -14,7 +14,7 @@ export function sleep(ms: number) {
   });
 }
 
-export function sleep2(ms: number) {
+export function sleep3(ms: number) {
   return new Promise(resolve => {
     setTimeout(resolve, ms);
   });
